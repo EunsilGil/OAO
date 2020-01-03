@@ -6,17 +6,17 @@ import 'package:flutter/material.dart';
 
 void main() async {
   final FirebaseApp app = await FirebaseApp.configure(
-    name: 'final',
+    name: 'OAO-project',
     options: FirebaseOptions(
-      googleAppID: '1:993907262456:android:b1d72a2ec696b450',
-      gcmSenderID: '993907262456',
-      apiKey: 'AIzaSyBTdeK4f1u2cLOFVO71kbh3dVCP9F-BhfY',
-      projectID: 'classwork-3ced3'
+      googleAppID: '1:871087443278:android:c2b31298ae03f6d681221f',
+      //gcmSenderID: '993907262456',
+      apiKey: 'AIzaSyAqEb-tCXXyrL7OjQ4a_Gbg5OoSs5ZdRxA',
+      projectID: 'oao-project-e8b9d'
     )
   );
   final FirebaseStorage storage = FirebaseStorage(
     app: app,
-    storageBucket: 'gs://classwork-3ced3.appspot.com'
+    storageBucket: 'gs://oao-project-e8b9d.appspot.com'
   );
 
   Global.storage = storage;
