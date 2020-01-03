@@ -7,5 +7,5 @@ class Global {
   static FirebaseStorage storage;
   static Product currentProduct;
   static final String defaultImage =
-      'gs://oao-project-e8b9d.appspot.com/logo/OAO_real_logo.png';
+      'gs://oao-project-e8b9d.appspot.com/loding/로딩화면.png';
 }
