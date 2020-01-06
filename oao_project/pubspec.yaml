@@ -16,6 +16,9 @@ dependencies:
   cloud_firestore:
   google_sign_in:
   image_picker:
+  logger:
+  shared_preferences:
+  provider:
 
 dev_dependencies:
   flutter_test:

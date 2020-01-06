@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf99d31a-a1b9-49d1-929b-bc1eee7a1b92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/OAO-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OAO-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="cf99d31a-a1b9-49d1-929b-bc1eee7a1b92" name="Default Changelist" comment="firebase 연동 완료 및 signin page 작업중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/oao_project/.pub/" />
@@ -56,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oao_project/lib/signin.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="297">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -151,8 +149,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1332" />
     <option name="height" value="1526" />
   </component>
@@ -231,15 +230,23 @@
       <option name="presentableId" value="Default" />
       <updated>1578032099196</updated>
     </task>
+    <task id="LOCAL-00001" summary="firebase 연동 완료 및 signin page 작업중">
+      <created>1578277379477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578277379477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="888" height="1017" extended-state="0" />
+    <frame x="-7" y="-7" width="1519" height="1017" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23550725" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1336532" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -264,6 +271,10 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Flutter Performance" order="5" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firebase 연동 완료 및 signin page 작업중" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase 연동 완료 및 signin page 작업중" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/oao_project/lib/add.dart">
@@ -348,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oao_project/lib/signin.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="297">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
