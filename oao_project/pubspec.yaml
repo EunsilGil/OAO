@@ -22,7 +22,11 @@ dev_dependencies:
     sdk: flutter
 
 
+
 flutter:
 
   uses-material-design: true
 
+
+module:
+  androidX: true
