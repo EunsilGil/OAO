@@ -34,6 +34,7 @@ class Final extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, //debug 표시 삭제
       home: Login(),
     );
   }
