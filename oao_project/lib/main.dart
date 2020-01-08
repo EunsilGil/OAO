@@ -1,5 +1,5 @@
 import 'global.dart';
-import 'login.dart';
+import 'signin.dart.';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
@@ -25,16 +25,14 @@ void main() async {
 }
 
 class Final extends StatelessWidget {
-
   final FirebaseStorage storage;
-
   const Final({Key key, this.storage}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, //debug 표시 삭제
-      home: Login(),
+      home: SignInPage(),
     );
   }
 }
