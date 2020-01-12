@@ -14,12 +14,14 @@ dependencies:
   firebase_auth:
   firebase_storage:
   cloud_firestore:
-  google_sign_in:
   image_picker:
   logger:
   shared_preferences:
   provider:
   http:
+
+  google_sign_in:
+  flutter_facebook_login:
 
 dev_dependencies:
   flutter_test:
