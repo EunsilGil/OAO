@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 import 'add.dart';
 import 'detail.dart';
 import 'product.dart';
@@ -71,7 +73,7 @@ class _ItemState extends State<Item> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Main'),
+        title: Image.network("gs://oao-project-e8b9d.appspot.com/logo/OAO_real_logo.png"),
         centerTitle: true,
         leading: IconButton(
           icon: Icon(Icons.person),
