@@ -104,9 +104,9 @@ class SignInPageState extends State<SignInPage> {
                 style: TextStyle(color: Color.fromARGB(254, 99, 86, 1)),
               ),
               onPressed: () {
-                Navigator.push(context,
+                /*Navigator.push(context,
                     MaterialPageRoute(builder: (context) => SignUpPage()));
-              },
+              */},
             ),
           ),
           //구글 계정으로 가입하기
