@@ -26,5 +26,3 @@ flutter:
 
   uses-material-design: true
 
-module:
-    androidX: true
